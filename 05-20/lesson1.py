@@ -77,3 +77,4 @@ if __name__ == "__main__":
 		print("\n遊戲中止，掰掰。")
 		sys.exit(0)
 
+
