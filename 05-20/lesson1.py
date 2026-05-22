@@ -76,5 +76,5 @@ if __name__ == "__main__":
 	except KeyboardInterrupt:
 		print("\n遊戲中止，掰掰。")
 		sys.exit(0)
-
+print("遊戲結束 ")
 
