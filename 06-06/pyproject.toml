@@ -1,12 +1,9 @@
 [project]
-name = "python-project"
+name = "06-06"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
-
-[tool.uv.workspace]
-members = [
-    "06-06",
+dependencies = [
+    "requests>=2.34.2",
 ]
