@@ -10,29 +10,6 @@ resolution-markers = [
     "python_full_version < '3.14' and sys_platform != 'emscripten' and sys_platform != 'win32'",
 ]
 
-[manifest]
-members = [
-    "06-06",
-    "python-project",
-]
-
-[[package]]
-name = "06-06"
-version = "0.1.0"
-source = { virtual = "06-06" }
-dependencies = [
-    { name = "pandas" },
-    { name = "reportlab" },
-    { name = "requests" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "pandas", specifier = ">=3.0.3" },
-    { name = "reportlab", specifier = ">=4.5.1" },
-    { name = "requests", specifier = ">=2.34.2" },
-]
-
 [[package]]
 name = "certifi"
 version = "2026.5.20"
@@ -382,6 +359,18 @@ wheels = [
 name = "python-project"
 version = "0.1.0"
 source = { virtual = "." }
+dependencies = [
+    { name = "pandas" },
+    { name = "reportlab" },
+    { name = "requests" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "pandas", specifier = ">=3.0.3" },
+    { name = "reportlab", specifier = ">=4.5.1" },
+    { name = "requests", specifier = ">=2.34.2" },
+]
 
 [[package]]
 name = "reportlab"

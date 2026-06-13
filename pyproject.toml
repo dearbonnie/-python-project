@@ -4,13 +4,11 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
-
-[tool.uv.workspace]
-members = [
-<<<<<<< HEAD
-    "0528",
-=======
-    "06-06",
->>>>>>> 940f1d889d626cd92bb61236485acaa21e5052c8
+dependencies = [
+    "pandas>=3.0.3",
+    "reportlab>=4.5.1",
+    "requests>=2.34.2",
 ]
+
+
+
