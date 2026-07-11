@@ -1,2 +1,41 @@
+# Local environments
 .venv/
-_pycache_
+venv/
+env/
+ENV/
+
+# Python cache and notebook artifacts
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# JavaScript and build artifacts
+node_modules/
+.next/
+dist/
+build/
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+
+# Terraform and credentials
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+*.tfplan
+credentials.json
+service-account*.json
+*-service-account.json
+*-key.json
+key.json
+*.pem
+*.key
+*.p12
+*.pfx
